@@ -1,1 +1,115 @@
 
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p.maintext {
+  border: 3px solid black;
+  background-color:#8E8E8E;
+/*  width: 90%;*/
+  height: 150px;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-family: Helvetica;
+  color: white;
+  padding: 10px;
+  padding-top: 35px;
+  overflow: hidden;
+}
+p.title1{
+background-color:  #33ADFF;
+border: 3px solid black;
+width: 80px;
+height: 30px;
+position: absolute;
+top: 0;
+right: 15px;
+text-align: center;
+}
+p.title2{
+background-color: #FFFF40;
+border: 3px solid black;
+width: 80px;
+height: 30px;
+position: absolute;
+top: 0;
+right: 15px;
+text-align: center;
+}
+p.title3{
+background-color:  #5CD65C;
+border: 3px solid black;
+width: 80px;
+height: 30px;
+position: absolute;
+top: 0;
+right: 15px;
+text-align: center;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;    position: relative;
+/*    border: 1px solid green;*/
+  } 
+  .col-lg-1 {
+    width: 50%;
+  }
+  .col-lg-2 {
+    width: 50%;
+  }
+  .col-lg-3 {
+    width: 50%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4 {
+    float: left;position: relative;
+/*    border: 1px solid green;*/
+  }
+   .col-md-1 {
+    width: 33.33%;
+  }
+  .col-md-2 {
+    width: 50%;
+  }
+  .col-md-3 {
+    width: 66.66%;
+  }
+  .col-md-4 {
+    width: 100%;
+  }
+}
+
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3 {
+    float: left;position: relative;
+/*    border: 1px solid green;*/
+  }
+   .col-sm-1 {
+    width: 33.33%;
+  }
+  .col-sm-2 {
+    width: 66.66%;
+  }
+  .col-sm-3 {
+    width: 100%;
+  }
+}
+
