@@ -3,13 +3,19 @@
 * {
   box-sizing: border-box;
 }
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16 px;
+
+}
 h1 {
   margin-bottom: 15px;
   text-align: center;
+ font-size: 175%;
 }
 
 p.maintext {
-  border: 3px solid black;
+  border: 1px solid black;
   background-color:#8E8E8E;
 /*  width: 90%;*/
   height: 150px;
@@ -23,33 +29,36 @@ p.maintext {
 }
 p.title1{
 background-color:  #33ADFF;
-border: 3px solid black;
-width: 80px;
+border: 1px solid black;
+width: 100px;
 height: 30px;
 position: absolute;
-top: 0;
+top: -4px;
 right: 15px;
 text-align: center;
+font-size: 125%;
 }
 p.title2{
 background-color: #FFFF40;
-border: 3px solid black;
-width: 80px;
+border: 1px solid black;
+width: 100px;
 height: 30px;
 position: absolute;
-top: 0;
+top: -4px;
 right: 15px;
 text-align: center;
+font-size: 125%;
 }
 p.title3{
 background-color:  #5CD65C;
-border: 3px solid black;
-width: 80px;
+border: 1px solid black;
+width: 100px;
 height: 30px;
 position: absolute;
-top: 0;
+top: -4px;
 right: 15px;
 text-align: center;
+font-size: 125%;
 }
 
 /* Simple Responsive Framework. */
