@@ -82,16 +82,16 @@ text-align: center;
 /*    border: 1px solid green;*/
   }
    .col-md-1 {
-    width: 33.33%;
+    width: 50%;
   }
   .col-md-2 {
     width: 50%;
   }
   .col-md-3 {
-    width: 66.66%;
+    width: 50%;
   }
   .col-md-4 {
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -103,13 +103,13 @@ text-align: center;
 /*    border: 1px solid green;*/
   }
    .col-sm-1 {
-    width: 33.33%;
+    width: 50%;
   }
   .col-sm-2 {
-    width: 66.66%;
+    width: 50%;
   }
   .col-sm-3 {
-    width: 100%;
+    width: 50%;
   }
 }
 
