@@ -10,7 +10,7 @@ h1 {
 }
 
 p.maintext {
-  border: 3px solid black;
+  border: 10px solid black;
   background-color:#8E8E8E;
 /*  width: 90%;*/
   height: 150px;
@@ -24,7 +24,7 @@ p.maintext {
 }
 p.title1{
 background-color:  #33ADFF;
-border: 3px solid black;
+border: 10px solid black;
 width: 80px;
 height: 30px;
 position: absolute;
@@ -34,7 +34,7 @@ text-align: center;
 }
 p.title2{
 background-color: #FFFF40;
-border: 3px solid black;
+border: 10px solid black;
 width: 80px;
 height: 30px;
 position: absolute;
