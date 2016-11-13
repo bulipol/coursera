@@ -24,7 +24,6 @@ body {
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
-/*  line-height: .75;*/
 }
 .navbar-brand{
 padding-top: 10px;
@@ -53,18 +52,14 @@ h2{
   margin-bottom: 20px;
   overflow: auto;
   padding-left: 5px;
+  padding-top: 5px;
   background-color:#999999;
 
 }
-#chicken-tile span, #beef-tile span, #sushi-tile span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 1.7em;
-  color: black;
 
+h3{
+margin-top: 0;
+font-size: 1.8em;
 }
 .row div{
 padding-top: 35px;
