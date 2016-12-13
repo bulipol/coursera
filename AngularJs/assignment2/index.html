@@ -39,7 +39,7 @@
           <button class="btn btn-default"><span class="glyphicon glyphicon-ok"></span>	</button>
         </li>
       </ol>
-      <div ng-if="list2.errorMessage" class="emptyMessage">{{list2.errorMessage}}</div>
+      <div ng-if="!list2.alreadyBought.length" class="emptyMessage">{{list2.boughtMessage}}</div>
     </div>
    </div>
 </div>
