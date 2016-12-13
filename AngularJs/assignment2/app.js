@@ -32,7 +32,8 @@ function ToBuyController(ShoppingListCheckOffService) {
 AlreadyBoughtController.$inject = ['ShoppingListCheckOffService'];
 function AlreadyBoughtController(ShoppingListCheckOffService) {
   var list2 = this;
-
+  list2.boughtMessage = "Nothing bought yet!";
+  list2.alreadyBought = ShoppingListCheckOffService.getItems2();
   try {
       list2.items = ShoppingListCheckOffService.getItems2();
     } catch (error) {
