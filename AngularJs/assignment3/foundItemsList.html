@@ -1,6 +1,6 @@
 <div style="padding-top: 50px;">
 <ul ng-if="errorMessage == false">
-  <li ng-repeat="item in foundItemsProp"><b>Name:</b>{{ item.name }}, <b>Short name:</b>{{ item.short_name }}, <b>Description:</b>{{ item.description }} 
+  <li ng-repeat="item in foundItemsProp"><b>Name: </b>{{ item.name }}, <b>Short name: </b>{{ item.short_name }}, <b>Description: </b>{{ item.description }} 
     <button ng-click="onRemove({
       index: $index
     })">I don't want this one!</button>
