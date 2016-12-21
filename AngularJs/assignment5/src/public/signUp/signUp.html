@@ -1,0 +1,15 @@
+<form name='form' class="signUpForm" novalidate>
+  <input type="text" name="firstName" ng-model="SignUpCtrl.info.firstName" required placeholder="First Name">
+  <input type="text" name="lastName" ng-model="SignUpCtrl.info.lastName" required placeholder="Last Name">
+  <input type="email" name="email" ng-model="SignUpCtrl.info.email" required placeholder="Email address">
+  <input type="phone" name="phone" ng-model="SignUpCtrl.info.phone" required placeholder="Phone number">
+  <input type="text" name="menuNumber" required
+         ng-model="SignUpCtrl.info.menuItemNumber"
+         ng-model-options='{ debounce: 150 }'
+         ng-change='SignUpCtrl.tryGetItem()'
+         placeholder="Favorite dish?">
+  <button type="button" class='btn btn-default' ng-disabled="form.$invalid" ng-click='SignUpCtrl.submit()'>Submit</button>
+</form>
+<div class="sign-up-result" ng-class="{ 'success' : SignUpCtrl.success, 'error' : !SignUpCtrl.success }">
+  {{ SignUpCtrl.message }}
+</div>
